@@ -11,8 +11,6 @@ for(let i =1; i<= 100; i++){
 }
 
 let blocks = document.getElementsByClassName('block');
-// blocks[0].setAttribute('posX','test');
-// blocks[0].setAttribute('posY','test');
 let x = 1;
 let y = 10;
 
