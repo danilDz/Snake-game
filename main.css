@@ -1,0 +1,48 @@
+body{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.field{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.block{
+    width: 50px;
+    height: 50px;
+    /* padding: 5px; */
+}
+
+.snakeBody{
+    /* background: url(images/body.png);
+    background-size: cover;
+    border-radius: 50%;
+    background-position: center;
+    transform: rotate(90deg); */
+    border-radius: 50%;
+    background-color:rgb(199, 170, 116);
+}
+
+.head{
+    /* background: url(images/head.png);
+    background-size: cover;
+    border-radius:10%;
+    background-position: center;
+    transform: rotate(90deg); */
+    border-radius: 30%;
+    background-color:rgb(114, 97, 66);
+}
+
+.mouse{
+    background: url(images/mouse.png);
+    background-position: center;
+    background-size: cover;
+    
+}
